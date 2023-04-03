@@ -1,4 +1,7 @@
-
+jQuery.noConflict();
+jQuery(document).ready(
+    function ($) {
+        var $ = jQuery.noConflict();
 
 $(document).ready(function(){
   
@@ -66,8 +69,9 @@ $(document).ready(function(){
       en:{
         "inf": "Information",
         "sys":"System Security 114",
-        "help": "Help",
-        "name":"Full name",
+        "help": "\u2003Help",
+        "ecus":"\u2003Ecusweb",
+        "contact":"\u2003Contact",
         "email":"Email",
         "submit":"Submit",
         "string1":"Username : Card ID & Password : Last 6 digits of Identity Card"
@@ -75,8 +79,9 @@ $(document).ready(function(){
       cn:{
         "inf":"首頁",
         "sys":"忘记密码 114",
-        "help":"用戶名",
-        "name":"姓名",
+        "help":"\u2003用戶名",
+        "ecus":"\u2003Ecusweb",
+        "contact":"\u2003身份",
         "email":"電子郵件",
         "submit":"確認",
         "string1":"用户为工號初始密碼為身份證號碼后六位"
@@ -84,8 +89,9 @@ $(document).ready(function(){
       vn:{
         "inf":"Thông tin",
         "sys":"Hệ thống an toàn 114",
-        "help":"Trợ giúp",
-        "name":"Họ và tên",
+        "help":"\u2003Trợ giúp",
+        "ecus":"\u2003Ecusweb",
+        "contact":"\u2003Liên hệ",
         "email":"Email",
         "submit":"Xác nhận",
         "string1":"Tên đăng nhập là mã thẻ, mật khẩu mặc định là sáu số cuối CMND"
@@ -99,3 +105,4 @@ $(document).ready(function(){
       "user":"Tên đăng nhập"
     }
   ]
+});
