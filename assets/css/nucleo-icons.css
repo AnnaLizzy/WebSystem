@@ -480,7 +480,9 @@ License - nucleoapp.com/license/
 .ni-satisfied::before {
   content: "\ea49";
 }
-
+.ni-user::before{
+  content: "\f007";
+}
 .ni-scissors::before {
   content: "\ea4a";
 }

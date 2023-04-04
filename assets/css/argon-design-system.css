@@ -1,19 +1,4 @@
 /*!
-=========================================================
-*  Argon Design System  - v 1.2.2
-=========================================================
-
-* Product Page:  https://www.creative-tim.com/product/argon-design-system
-* Copyright  2020  Creative Tim (http://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -6629,7 +6614,7 @@ a.close.disabled {
 }
 
 .modal-backdrop {
-  position: fixed;
+  /* position: absolute; */
   top: 0;
   left: 0;
   z-index: 1040;
